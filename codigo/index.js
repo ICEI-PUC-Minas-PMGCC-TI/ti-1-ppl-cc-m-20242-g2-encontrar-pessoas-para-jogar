@@ -11,7 +11,7 @@
 // URL Projeto JSONServer: https://replit.com/@rommelpuc/JSONServer
 //
 // Autor: Rommel Vieira Carneiro
-// Data: 03/10/2023
+// Data: 03/10/23
 
 const jsonServer = require('json-server')
 const server = jsonServer.create()
