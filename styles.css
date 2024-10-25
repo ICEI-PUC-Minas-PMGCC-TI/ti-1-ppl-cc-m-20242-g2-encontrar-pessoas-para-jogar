@@ -1,0 +1,36 @@
+/* Reseta estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico do corpo */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilo do contêiner do gráfico */
+div {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px; /* Controla o tamanho do contêiner */
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilo do canvas do gráfico */
+canvas {
+  width: 400px; /* Largura desejada */
+  height: 400px; /* Altura desejada */
+  max-width: 100%;
+}
