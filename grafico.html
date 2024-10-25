@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gráfico de Pizza</title>
+  <title>Gráfico de Jogos Mais Jogados</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,32 +12,6 @@
     <canvas id="myPieChart"></canvas>
   </div>
 
-  <script>
-    const ctx = document.getElementById('myPieChart').getContext('2d');
-    const myPieChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: ['Valorant', 'Apex', 'Fortnite' ,'Counter-Strike: Global Offensive', 'League of Legends'],
-        datasets: [{
-          label: 'Dataset 1',
-          data: [12.16, 5.07, 16.82, 19.80, 46.13],
-          backgroundColor: ['#FF6384', '#0066ff', '#ffa333', '#6600ff', '#33FF99'],
-          hoverBackgroundColor: ['#FF6384', '#0066ff', '#ffa333', '#6600ff', '#33FF99']
-        }]
-      },
-      options: {
-        responsive: false, // Desativa o redimensionamento automático
-        maintainAspectRatio: false, // Permite ajustar manualmente o tamanho do canvas
-        plugins: {
-          legend: {
-            position: 'top',
-          },
-          tooltip: {
-            enabled: true
-          }
-        }
-      }
-    });
-  </script>
+  <script src="script.js"></script> <!-- Importa o arquivo JavaScript -->
 </body>
 </html>
