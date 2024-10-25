@@ -49,9 +49,14 @@ li a.active,li a:hover{
     padding: 3%;
 }
 
+.filtro-interno > div {
+    display: inline-block;
+}
+
 .escolhas {
     background-color: rgb(58, 49, 49);
     width: 40%;
+    border-radius: 15%;
     height: 450px;
 }
 
@@ -59,4 +64,24 @@ li a.active,li a:hover{
     color: white;
     text-align: center;
     padding-top: 15px;
+}
+
+.pesquisa {
+    background-color: white;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    margin-left: 4%;
+    border-radius: 15%;
+
+}
+
+.pesquisa > p {
+    color: black;
+    text-align: center;
+    padding: 2.5%;
+}
+
+.pesquisa > p > i {
+margin-left: 5%;
 }
