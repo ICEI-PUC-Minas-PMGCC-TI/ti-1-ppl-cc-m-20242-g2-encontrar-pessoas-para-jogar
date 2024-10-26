@@ -2,13 +2,12 @@ const apiKey = '';
 
 async function getPopularGames() {
   try {
-    // Faz uma requisição para buscar os jogos mais populares
     const response = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&page_size=5&ordering=-added`);
     const data = await response.json();
     
-    // Extrai os nomes dos jogos e suas pontuações
+   
     const gameNames = data.results.map(game => game.name);
-    const gamePopularity = data.results.map(game => game.added); // Popularidade baseada em quantos usuários adicionaram o jogo
+    const gamePopularity = data.results.map(game => game.added); 
     
     updateChart(gameNames, gamePopularity);
   } catch (error) {
@@ -44,5 +43,5 @@ function updateChart(labels, data) {
   });
 }
 
-// Chama a função para buscar os dados e atualizar o gráfico
+
 getPopularGames();
