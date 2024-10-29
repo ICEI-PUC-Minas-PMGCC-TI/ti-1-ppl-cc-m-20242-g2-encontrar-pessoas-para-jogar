@@ -1,0 +1,46 @@
+{
+    "games": [
+      {
+        "name": "Valorant",
+        "genre": "FPS (First-Person Shooter)",
+        "developer": "Riot Games",
+        "description": "Jogo de tiro em primeira pessoa baseado em personagens com habilidades únicas."
+      },
+      {
+        "name": "CSGO",
+        "genre": "FPS (First-Person Shooter)",
+        "developer": "Valve",
+        "description": "Counter-Strike: Global Offensive é um jogo de tiro tático em primeira pessoa, focado em combate entre times."
+      },
+      {
+        "name": "FIFA 25",
+        "genre": "Esportes",
+        "developer": "EA Sports",
+        "description": "Simulação de futebol com jogadores reais, equipes, ligas e modos de jogo variados."
+      },
+      {
+        "name": "League of Legends",
+        "genre": "MOBA (Multiplayer Online Battle Arena)",
+        "developer": "Riot Games",
+        "description": "Um jogo de estratégia em equipe em que jogadores controlam campeões para batalhar em arenas."
+      },
+      {
+        "name": "Roblox",
+        "genre": "Sandbox/Plataforma",
+        "developer": "Roblox Corporation",
+        "description": "Plataforma online onde usuários podem criar e jogar jogos desenvolvidos por outros usuários."
+      },
+      {
+        "name": "Minecraft",
+        "genre": "Sandbox",
+        "developer": "Mojang Studios",
+        "description": "Um jogo de construção em um mundo aberto onde jogadores exploram, coletam recursos e criam estruturas."
+      },
+      {
+        "name": "Dead by Daylight",
+        "genre": "Survival Horror",
+        "developer": "Behaviour Interactive",
+        "description": "Jogo de sobrevivência assimétrico em que quatro sobreviventes tentam escapar de um assassino."
+      }
+    ]
+  }
