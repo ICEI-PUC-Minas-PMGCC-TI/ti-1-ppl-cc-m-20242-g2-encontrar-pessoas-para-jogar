@@ -1,0 +1,113 @@
+body{
+    background-image: url(https://pt-static.z-dn.net/files/db4/9eab78641173541050ca3b9c1d1ac8b6.jpg);
+    background-size: 100%;
+}
+
+nav > li > ul{
+    float: right;
+    margin-top: 1.5%;
+}
+
+nav > li > ul > a{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+li a.active,li a:hover{
+    color: white;
+    background-color: purple;
+    transition: 0.6s;
+    padding: 13px;
+}
+
+.filtro-container{
+    background-color: lightgray;
+    opacity: 80%;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+    border-radius: 6%;
+}
+
+
+.filtro-interno{
+     
+    background-color: lightgray;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+
+.filtro-interno  > h1{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.filtro-interno > div {
+    display: inline-block;
+}
+/*
+.escolhas {
+    background-color: rgb(58, 49, 49);
+    width: 40%;
+    border-radius: 15%;
+    height: 450px;
+    
+}
+
+.escolhas > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+*/
+
+.pesquisa {
+    margin-left: 10%;
+    color: black;
+ 
+}
+
+.users {
+    border-radius: 5%;
+    margin-top: 10px;
+    background-color: white;
+    width: 120%;
+    height: 100%;
+    color: black;
+}
+
+#data-container {
+    margin-top: 20px;
+}
+.item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.item > h3 {
+    font-weight: bold;
+}
+
+#search-input {
+    border-radius: 20%;
+}
+
+.button-group {
+    margin-top: 2%;
+}
+
+.button-group > button {
+    background-color: black;
+    color: white;
+}

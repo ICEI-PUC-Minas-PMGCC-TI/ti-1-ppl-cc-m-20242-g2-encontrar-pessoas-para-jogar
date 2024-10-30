@@ -1,0 +1,32 @@
+[
+        {
+            "user": "gxstax7",
+            "idade": 20,
+            "estilo": "Competitivo"
+        },
+        {
+            "user": "paulocampos",
+            "idade": 16,
+            "estilo": "Casual"
+        },
+        {
+            "user": "Victor10",
+            "idade": 18,
+            "estilo": "Competitivo"
+        },
+        {
+            "user": "rommelx",
+            "idade": 29,
+            "estilo": "Competitivo"
+        },
+        {
+            "user": "lu-y",
+            "idade": 28,
+            "estilo": "Competitivo"
+        },
+        {
+            "user": "joaoz",
+            "idade": 27,
+            "estilo": "Casual"
+        }
+]
