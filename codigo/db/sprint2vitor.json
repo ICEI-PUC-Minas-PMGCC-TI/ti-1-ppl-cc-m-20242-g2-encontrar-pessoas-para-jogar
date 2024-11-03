@@ -1,0 +1,24 @@
+{
+    "html": {
+        "lang": "pt-br",
+        "head": {
+            "title": "Página de Jogo",
+            "link": "style.css"
+        },
+        "body": {
+            "header": {
+                "left": { "link": "Home" },
+                "right": { "username": "Nome do Usuário" }
+            },
+            "main": {
+                "game-display": {
+                    "game-name": "EA 25",
+                    "image": { "src": "ea25.jpg", "alt": "Imagem do Jogo" },
+                    "description": "Escreva aqui a descrição do jogo.",
+                    "button": { "text": "Encontrar para jogar", "onclick": "findGame()" }
+                }
+            },
+            "script": "script.js"
+        }
+    }
+}
