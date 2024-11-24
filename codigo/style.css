@@ -1,3 +1,60 @@
+.comments-section h3 {
+    font-size: 1.5em;
+    color: #8849db;
+    padding-top: 10px;
+}
+
+.comment {
+    background-color: #333333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-left: 4px solid #4CAF50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section .comment strong {
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.comment-text {
+    color: #b6b6b6;
+    font-size: 1.1em;
+}
+
+.add-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#username-input,
+#comment-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-comment button {
+    align-self: flex-end;
+    padding: 8px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-comment button:hover {
+    background-color: #45a049;
+}
+
+
 * {
     margin: 0;
     padding: 0;
