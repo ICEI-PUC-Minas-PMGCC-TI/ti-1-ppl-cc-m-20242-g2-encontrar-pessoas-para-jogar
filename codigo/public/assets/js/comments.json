@@ -1,0 +1,17 @@
+{
+    "jogos": [
+      {
+        "id": 1,
+        "nome": "Jogo Exemplo",
+        "descricao": "Este é um jogo de ação e aventura com gráficos impressionantes.",
+        "imagemSrc": "https://via.placeholder.com/900x500"
+      }
+    ],
+    "comentarios": [
+      {
+        "jogoId": 1,
+        "texto": "Esse jogo é incrível! Recomendo!"
+      }
+    ]
+  }
+  
