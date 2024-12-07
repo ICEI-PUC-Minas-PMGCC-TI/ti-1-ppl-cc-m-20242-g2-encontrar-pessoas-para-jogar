@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <a href="games.html">Home</a>
+        </div>
+        <div class="header-right">
+            <span id="username">Nome do Usuário</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="game-display">
+            <h1 class="game-name" id="gameName"></h1>
+
+            <div class="image-container">
+                <img src="" alt="Imagem do Jogo" class="game-image" id="gameImage">
+            </div>
+
+            <div class="game-description">
+                <h2>Descrição</h2>
+                <p id="gameDescription"></p>
+            </div>
+
+            <div class="button-container">
+                <button onclick="findGame()">Encontrar para jogar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>

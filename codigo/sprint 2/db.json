@@ -1,0 +1,46 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Valorant",
+      "image": "valorant.jpg",
+      "description": "Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para você exibir sua mecânica de tiro. Cada Agente é único, assim como os momentos de destaque de cada partida! Cada mapa serve como um palco para mostrar sua criatividade."
+    },
+    {
+      "id": 2,
+      "name": "CS:GO",
+      "image": "csgo.jpg",
+      "description": "O Counter-Strike: Global Offensive (CS:GO) é a continuação do jogo de equipas cheio de ação que foi pioneiro quando foi lançado há 12 anos atrás. O CS: GO apresenta-se com novos mapas, personagens, armas e ainda oferece versões atualizadas de conteúdo do CS clássico."
+    },
+    {
+      "id": 3,
+      "name": "FIFA 25",
+      "image": "ea25.jpg",
+      "description": "O EA Sports FC 25 é um jogo de futebol que promete uma experiência autêntica de jogo, com dados de partidas das ligas mais importantes do mundo e mais de 19.000 jogadores de mais de 700 clubes."
+    },
+    {
+      "id": 4,
+      "name": "Minecraft",
+      "image": "minecraft.jpg",
+      "description": "Minecraft é um jogo eletrônico lançado em 2009 que consiste em sobreviver em um mundo formado (majoritariamente) por blocos cúbicos. Steve, o personagem controlado pelo jogador, inicia o jogo em um ambiente repleto de árvores, montanhas, rios."
+    },
+    {
+      "id": 5,
+      "name": "League of Legends",
+      "image": "leagueoflegends.jpg",
+      "description": "League of Legends é um jogo de estratégia em que duas equipes de cinco poderosos Campeões se enfrentam para destruir a base uma da outra. Escolha entre mais de 140 Campeões para realizar jogadas épicas, assegurar abates e destruir torres conforme você luta até a vitória."
+    },
+    {
+      "id": 6,
+      "name": "Roblox",
+      "image": "roblox.jpg",
+      "description": "Roblox é um sistema de criação de jogos online onde a maior parte do conteúdo é criada por criadores de jogos “amadores” no estúdio Roblox. Esses criadores de jogos são capazes de criar e publicar jogos para a comunidade usando ferramentas simples."
+    },
+    {
+      "id": 7,
+      "name": "Dead by Daylight",
+      "image": "deadbydaylight.jpg",
+      "description": "Dead by Daylight é um multiplayer que mistura ação, perseguição e terror, com versão disponível para Windows no Steam. No game para cinco jogadores, um deles assume o papel de um assassino e deve caçar os outros, que precisam lutar para sobreviver entre armadilhas e cenários procedurais."
+    }
+  ]
+}

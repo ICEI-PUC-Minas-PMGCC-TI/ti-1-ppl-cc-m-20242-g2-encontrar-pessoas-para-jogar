@@ -1,0 +1,175 @@
+/* Reset e configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo das cartas (cards) */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 350px; /* Altura fixa para as cartas */
+}
+
+/* Garantir que as imagens de jogos fiquem do mesmo tamanho */
+.card img {
+    width: 100%;
+    height: 200px;            /* Altura fixa para as imagens */
+    object-fit: cover;        /* Preenche a área sem distorção */
+}
+
+/* Estilo do corpo das cartas */
+.card-body {
+    padding: 15px;
+    overflow: hidden;
+}
+
+/* Títulos das cartas */
+h1, h2 {
+    color: #343a40;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-body .btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-body .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Resetando alguns estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header #username {
+    font-size: 1rem;
+}
+
+/* Container principal da página */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container de exibição do jogo */
+.game-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Nome do jogo */
+.game-name {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Container para a imagem do jogo */
+.image-container {
+    width: 100%;
+    max-width: 600px; /* Limita a largura da imagem */
+    height: 400px;    /* Define uma altura fixa para as imagens */
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Garantindo que a imagem tenha o mesmo tamanho */
+.game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem cobrir a área sem deformação */
+}
+
+/* Descrição do jogo */
+.game-description {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.game-description h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.game-description p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Botão para encontrar para jogar */
+.button-container {
+    margin-top: 30px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 1.125rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
